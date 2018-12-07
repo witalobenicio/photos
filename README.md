@@ -1,6 +1,6 @@
 # photos
 
-##run
+Run
 
 - yarn install
 - yarn start
