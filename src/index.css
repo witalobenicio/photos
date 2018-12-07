@@ -12,3 +12,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.album-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.album {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background: #e6e6e6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.album span {
+  font-size: 12pt;
+  color: black;
+}
