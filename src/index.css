@@ -21,10 +21,7 @@ code {
 
 .album {
   margin: 10px;
-  height: 100px;
-  width: 100px;
   background: #e6e6e6;
-  justify-content: center;
   align-items: center;
   display: flex;
 }
@@ -32,4 +29,17 @@ code {
 .album span {
   font-size: 12pt;
   color: black;
+}
+
+.photos-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.photos-container img {
+  height: 100px;
+  margin: 10px;
+  width: 100px;
 }

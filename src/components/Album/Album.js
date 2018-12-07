@@ -31,6 +31,15 @@ const Album = ({ albumId, photos, index }: Album) => {
     >
       <span>
         Album {albumId}
+
+        {
+          photos.map(photo => (
+            <div className="photos-container">
+              <img src={photo.url}/>
+              <span>{photo.title}</span>
+            </div>
+          ))
+        }
       </span>
     </div>
   )
